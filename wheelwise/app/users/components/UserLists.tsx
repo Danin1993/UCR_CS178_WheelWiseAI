@@ -7,7 +7,7 @@ import UserBox from "./UserBox";
 interface UserListProps {
     items: User[]
 }
-const UserList: (React.FC<UserListProps> = ({
+const UserList: (React.FC<UserListProps>)= ({
     items
 }) => {
     return (
@@ -27,9 +27,9 @@ const UserList: (React.FC<UserListProps> = ({
                 w-full
                 left-0
             ">
-        <div className = "px-5">
-            <div className = "flex-col">
-                <div className ="
+        <div className="px-5">
+            <div className="flex-col">
+                <div className="
                     text-2xl
                     font-bold
                     text-neutral-800

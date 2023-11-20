@@ -4,6 +4,7 @@ import { User} from "@prisma/client";
 import axios from "axios";
 import { useCallback, useState } from "react";
 import { useRouter } from "next/navigation";
+import Avatar from "@/app/components/Avatar";
 
 interface UserBoxProps {
     data:User
@@ -26,7 +27,46 @@ const UserBox: React.FC<UserBoxProps> = ({
     }, [data, router]);
 
     return (
-        <div>User</div>
+        <div
+            onClick={handleClick}
+            className="
+            w-full
+            relaxtive
+            flex
+            items-center
+            space-x-3
+            bg-white
+            p-3
+            hover:bg-neutral-100
+            rounded-lg
+            transition
+            cursor-pointer
+            "
+        >
+            <Avatar user={data}/>
+            <div className="min-w-9 flex-1">
+                <div className="focus:outline-none">
+                    <div
+                        className="
+                        flex
+                        justify-between
+                        items-center
+                        mb-1
+                        "
+                    >
+                        <p
+                            className="
+                            text-sm
+                            font-medium
+                            text-gray-900
+                            "
+                        >
+                            {data.name}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 }
 
