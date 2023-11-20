@@ -99,3 +99,6 @@ const Form = () => {
 }
  
 export default Form;
+
+
+//change the signing mode to unsigned in upload, storage and access on cloudinary console
