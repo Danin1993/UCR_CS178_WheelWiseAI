@@ -1,0 +1,1 @@
+{"version":3,"file":"client.js","sourceRoot":"","sources":["../tools/client.tsx"],"names":[],"mappings":";AAAA,YAAY,CAAC;;;;;;;;;;;;;AAEb,iCAA4D;AAC5D,6BAA+B;AAE/B,SAAwB,kBAAkB,CAAI,EAQ7C;QAPC,SAAS,eAAA,EACT,KAAK,WAAA,EACL,QAAQ,cAAA;IAMR,IAAM,aAAa,GAAG,IAAA,yBAAiB,EAAC,SAAS,CAAC,CAAC;IACnD,OAAO,oBAAC,aAAa,eAAK,KAAK,GAAG,QAAQ,CAAiB,CAAC;AAC9D,CAAC;AAXD,qCAWC"}
