@@ -1,4 +1,4 @@
-## Key Updates in WheelWise CRM 2.0
+## Key Updates in WheelWise CRM 2.0.0
 
 -  **Transition from Page Router to App Router**: In version 2.0, we have moved from using the traditional Page Router to the more advanced **App Router**. This shift allows for more dynamic and efficient routing mechanisms, enhancing the overall user experience.
 
