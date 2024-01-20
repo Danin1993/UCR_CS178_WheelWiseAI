@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Technologies Used
 
-## Getting Started
+Below is a list of the key technologies used in WheelWise CRM 2.0, including their versions and links for more information:
 
-First, run the development server:
+1. **Next.js (version 14.1.0)**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   -  Website: [Next.js](https://nextjs.org/)
+   -  Next.js is a React framework that enables functionality such as server-side rendering and generating static websites.
+   -  Run in development mode: `npm run dev`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **React (version 18)**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   -  Website: [React](https://reactjs.org/)
+   -  A JavaScript library for building user interfaces, used within the Next.js framework.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Prisma (version 5.8.1)**
 
-## Learn More
+   -  Website: [Prisma](https://www.prisma.io/)
+   -  An open-source database toolkit for TypeScript and Node.js.
+   -  Integrating Prisma: Follow the instructions on the Prisma website.
 
-To learn more about Next.js, take a look at the following resources:
+4. **Axios (version 1.6.5)**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   -  Website: [Axios](https://axios-http.com/)
+   -  A promise-based HTTP client for making requests.
+   -  Usage: Integrated within application code for HTTP requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. **Tailwind CSS (version 3.3.0)**
 
-## Deploy on Vercel
+   -  Website: [Tailwind CSS](https://tailwindcss.com/)
+   -  A utility-first CSS framework for rapidly building custom designs.
+   -  Usage: Include in your project's stylesheets.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. **TypeScript (version 5)**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   -  Website: [TypeScript](https://www.typescriptlang.org/)
+   -  A strongly typed programming language that builds on JavaScript.
+   -  Compile TypeScript files: Run `npx tsc`.
+
+7. **React Hook Form (version 7.49.3)**
+
+   -  Website: [React Hook Form](https://react-hook-form.com/)
+   -  Efficient and flexible library for form handling and validation in React.
+   -  Integrated into React components.
+
+8. **Zod (version 3.22.4)**
+
+   -  Website: [Zod](https://github.com/colinhacks/zod)
+   -  A TypeScript-first schema validation library.
+   -  Usage: In conjunction with React Hook Form for form validation.
+
+9. **Additional Libraries:**
+   -  **@hookform/resolvers (version 3.3.4)**: Resolver library for React Hook Form.
+   -  **@radix-ui/themes (version 2.0.3)**: For theming UI components.
+   -  **react-icons (version 5.0.1)**: To include icons from various libraries.
+   -  **delay (version 6.0.0)**: A utility to delay a promise for a specified time.
