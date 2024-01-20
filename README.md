@@ -1,11 +1,11 @@
 ## Technologies Used
 
-Below is a list of the key technologies used in WheelWise CRM 2.0, including their versions and links for more information:
+Below is a detailed list of the technologies used in WheelWise CRM 2.0, their versions, and instructions for use:
 
 1. **Next.js (version 14.1.0)**
 
    -  Website: [Next.js](https://nextjs.org/)
-   -  Next.js is a React framework that enables functionality such as server-side rendering and generating static websites.
+   -  A React framework for server-side rendering and static site generation.
    -  Run in development mode: `npm run dev`.
 
 2. **React (version 18)**
@@ -49,8 +49,21 @@ Below is a list of the key technologies used in WheelWise CRM 2.0, including the
    -  A TypeScript-first schema validation library.
    -  Usage: In conjunction with React Hook Form for form validation.
 
-9. **Additional Libraries:**
-   -  **@hookform/resolvers (version 3.3.4)**: Resolver library for React Hook Form.
-   -  **@radix-ui/themes (version 2.0.3)**: For theming UI components.
-   -  **react-icons (version 5.0.1)**: To include icons from various libraries.
-   -  **delay (version 6.0.0)**: A utility to delay a promise for a specified time.
+9. **@radix-ui (version 1.3.0)**
+
+   -  Website: [@radix-ui/react-icons](https://www.radix-ui.com/)
+   -  Provides a suite of icon components for React.
+   -  Usage: Integrated into React components for including icons.
+
+10.   **shadcn-ui**
+
+-  Website: [shadcn-ui](https://shadcn.com/)
+-  A UI framework built on top of Radix UI.
+-  Installation: Run `npx shadcn-ui@latest init` in your project directory.
+
+11. **Additional Libraries:**
+
+-  **@hookform/resolvers (version 3.3.4)**: Resolver library for React Hook Form.
+-  **@radix-ui/themes (version 2.0.3)**: For theming UI components.
+-  **react-icons (version 5.0.1)**: To include icons from various libraries.
+-  **delay (version 6.0.0)**: A utility to delay a promise for a specified time.
